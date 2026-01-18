@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body {
+        background-color: #0a0a0a;
+        color: #ffffff;
+        font-family: 'Courier New', monospace;
+        text-align: center;
+        margin: 0;
+        padding: 20px;
+        line-height: 1.6;
+    }
+    
+    h1 {
+        text-align: center;
+        color: #00ffff;
+        font-size: 40px;
+        margin-bottom: 10px;
+        text-shadow: 0 0 100px #00ffff;
+    }
+    
+    h3 {
+        position: relative;
+        padding-left: 15px;
+        color: #00ff7f;
+        text-shadow: 0 0 100px #00ff7f;
+        text-align: center;
+    }
+    
+    div {
+        text-align: center;
+        background-position: left center;
+        width: -80%;
+        background-color: #151719;
+        padding-top: 25px;
+        padding-bottom: 30px;
+        border-radius: 23px;
+        border: 2px solid rgba(0, 255, 255, 0.1);
+    }
+    
+    /* ========== ПРОСТЫЕ КРАСИВЫЕ КНОПКИ ========== */
+    button {
+        font-size: 16px;
+        width: 250px;
+        height: 50px;
+        background: #0088cc;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        margin: 15px;
+        font-weight: bold;
+        transition: 0.3s;
+        border: 2px solid transparent;
+    }
+    
+    /* Первая кнопка (канал) */
+    a:first-of-type button {
+        background: #ff416c;
+    }
+    
+    /* Вторая кнопка (Telegram) */
+    a:last-of-type button {
+        background: #0088cc;
+    }
+    
+    /* Эффект при наведении */
+    button:hover {
+        transform: translateY(-3px);
+        border-color: #00ffff;
+    }
+    
+    a:first-of-type button:hover {
+        background: #e03e5a;
+    }
+    
+    a:last-of-type button:hover {
+        background: #0077b5;
+    }
+    
+    /* Чуть-чуть анимации для заголовка */
+    h1 {
+        animation: blink 3s infinite;
+    }
+    
+    @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.8; }
+    }
+    
+    /* Чуть-чуть анимации для блоков */
+    div {
+        transition: 0.3s;
+    }
+    
+    div:hover {
+        border-color: rgba(0, 255, 255, 0.3);
+    }
+</style>
+</head>
+
+<body>
+  <div>
+    <h1>@deocaov</h1>
+    <h3>Cyber security/ Pentesting/ Osint/ Veb sites</h3><br>
+    
+    <br><h3>About me 🎫</h3>
+    <div>Специалист по кибербезопасности и тестированию на проникновение. 
+Нахожу и устраняю уязвимости в веб-приложениях.<br>
+    </div>
+    
+    <h3>Expertise 🌐<br></h3>
+    <div>Защита веб приложений🔰<br>тестирование на проникновение🔍<br>легкая Osint разведка🕵️‍♀️<br>верстка сайтов🪵</div>
+
+  <h3>Contact📳</h3>
+    <div>
+        <a href="https://t.me/+wEp5g8luzbU5MzY1" target="_blank">
+            <button>📢 Мой канал</button>
+        </a>
+        <br>
+        <a href="https://t.me/diocaov" target="_blank">
+            <button>💬 Telegram</button>
+        </a>
+    </div>
+  </div>
+</body>
+</html>
